@@ -1,0 +1,58 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body {
+  background-image: asset-url('back.jpg');
+  background-size: cover;
+}
+
+.mycard {
+  text-align: center;
+  vertical-align: center;
+  margin: 20px;
+  font-size: 25px;
+  background-image: asset-url('download.jpeg');
+  background-position: center;
+  background-size: cover;
+  font-weight: 700;
+  height: 300px;
+  width: 300px;
+  color: black;
+  text-shadow: #FC0 1px 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.mycard-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.myshow {
+  text-align: center;
+  vertical-align: center;
+  margin: 20px;
+  font-size: 25px;
+  background-image: asset-url('download.jpeg');
+  background-position: center;
+  background-size: cover;
+  font-weight: 700;
+  width: 300px;
+  color: black;
+  text-shadow: #FC0 1px 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
