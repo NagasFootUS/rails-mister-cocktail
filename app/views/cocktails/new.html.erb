@@ -3,6 +3,7 @@
 <div class="container mycard">
 <%= simple_form_for (@cocktail) do |f| %>
   <%= f.input :name %>
+  <%= f.input :photo, as: :file %>
   <%= f.submit %>
 <% end %>
 <div class="btn"><%= link_to "Back to index", cocktails_path %></div>
