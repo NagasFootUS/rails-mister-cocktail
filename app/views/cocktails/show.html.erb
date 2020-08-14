@@ -1,8 +1,8 @@
 <div class="container">
   <div class="mycard-category">
 <div class="container myshow">
-  <h2><%= @cocktail.name %></h2>
-      <h3>Ingredients</h3>
+  <h1><strong><%= @cocktail.name %></strong></h1>
+      <h2>Ingredients</h2>
       <% @cocktail.doses.each do |dose| %>
         <ul class="list-unstyled">
           <li>
